@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS en Tablas</title>
+    <style>
+        table, td, th{border: 2px solid blueviolet; border-collapse: collapse;}
+        tr{height: 80px; }
+        table{width: 70%;margin: auto;}
+        td{vertical-align: center; text-align: center;}
+        tr:hover{background-color: purple; color:cyan;}
+        tr:nth-child(even){background-color: plum;}
+        h1{text-align: center;}
+    </style>
+</head>
+<body>
+    <h1>CSS en tablas</h1>
+    <table>
+<tr>
+    <th>
+        Articulo
+    </th>
+    <th>
+        Precio
+    </th>
+</tr>
+<tr>
+    <td>
+        Aceite de oliva
+    </td>
+    <td>
+        10.00€
+    </td>
+</tr>
+<tr>
+    <td>
+        Tortas de Alcazar
+    </td>
+    <td>
+        6.50€
+    </td>
+</tr>
+<tr>
+    <td>
+        Miguelitos de la Roda
+    </td>
+    <td>
+        12.00€
+    </td>
+</tr>
+
+    </table>
+</body>
+</html>
